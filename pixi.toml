@@ -1,0 +1,11 @@
+[workspace]
+authors = ["Paul Dutton <jodgey4@gmail.com>"]
+channels = ["https://conda.modular.com/max-nightly", "conda-forge"]
+name = "onebrc_mojo"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+mojo = ">=0.25.7.0.dev2025102105,<0.26"
