@@ -23,8 +23,9 @@ import random
 import time
 
 # PD - paths
-WEATHER_STATIONS_CSV = './weather_stations.csv'
-OUTPUT_PATH = '../measurements.txt'
+CURR_DIR = os.path.dirname(os.path.abspath(__file__))
+WEATHER_STATIONS_CSV = os.path.join(CURR_DIR, 'weather_stations.csv')
+OUTPUT_PATH = os.path.join(CURR_DIR, '../data/measurements.txt')
 
 
 def check_args(file_args):
